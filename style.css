@@ -15,6 +15,12 @@ body{
   justify-content: space-between;  
 }
 
+.logo{
+  border-radius: 25px;
+  width: 70px;
+  height: 70px;
+}
+
 /* Estilos generales */
 
 section {
@@ -76,6 +82,7 @@ h1 {
   color: black;
 }
 
+
 .texto-blanco {
   color: white;
 }
@@ -102,6 +109,11 @@ h1 {
   font-size: 1.5rem;
   color: yellow;
   font-size: 130%;
+}
+
+.hero-inferior-imagen{
+  height: 400px;
+  width: 500px;
 }
 
 /* Sobre mi */
@@ -157,7 +169,8 @@ h1 {
   margin: 10px 0;
 }
 
-.btn {
+.btn-info {
+  margin-top: 40px;
   background-color: #92cdbc; 
   border-color: #92cdbc;
 }
@@ -167,7 +180,7 @@ h1 {
   border-color: #83b9a9;
 }
 
-.btn:active{
+.btn-info:active{
   background-color: #83b9a9; 
   border-color: #83b9a9;
 }
@@ -189,7 +202,14 @@ h1 {
   border-radius: 10px;
   display: block;
   transition: all 0.2s ease;
+  border: 1px rgb(231, 231, 231) solid;
 }
+
+.proyectos-recientes img:hover {
+  box-shadow: 0 0 10px black;
+
+}
+
 
 .proyectos-contenedor {
   padding-top: 60px;
@@ -235,6 +255,7 @@ h1 {
   margin: 10px;
 }
 
+/* Ver más */
 
 /* Testimonios 
 
@@ -346,19 +367,21 @@ h1 {
 
 footer {
   min-height: 200px;
+  padding-top: 10px;
 }
 
 .footer-logo {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   margin: 10px;
+  border-radius: 25px;
 }
 
 .footer-texto {
   font-size: 1.5rem;
   padding: 20px;
-  margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 17px;
+  font-family: 'Kanit', sans-serif;
 }
 
 .iconos-redes-sociales a {
@@ -381,13 +404,13 @@ footer {
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
+background-color: #261d29;
   /* border: 2px solid rgb(13, 110, 253); */
-  border: 2px solid #261d29;
+  border: 2px solid #92cdbc;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: #92cdbc;
 }
 
 .derechos-de-autor {
